@@ -1,0 +1,45 @@
+{
+  "name": "BaiduMobAdKit",
+  "version": "0.1.0",
+  "summary": "A short description of BaiduMobAdKit.",
+  "description": "百度 MobileSSP 移动应用推广 SDK",
+  "homepage": "https://github.com/devluyy/BaiduMobAdKit",
+  "license": "MIT",
+  "authors": {
+    "luyiyang": "allenlu430@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/devluyy/BaiduMobAdKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*.{h,m,c,swift}",
+  "resource_bundles": {
+    "baidumobadsdk": [
+      "Pod/Classes/**/*.png"
+    ]
+  },
+  "frameworks": [
+    "CoreMedia",
+    "QuartzCore",
+    "Security",
+    "AdSupport",
+    "StoreKit",
+    "AudioToolbox",
+    "CoreMotion",
+    "MediaPlayer",
+    "AVFoundation",
+    "MessageUI",
+    "CoreLocation",
+    "CoreTelephony",
+    "SystemConfiguration",
+    "UIKit",
+    "CoreGraphics",
+    "WebKit"
+  ],
+  "libraries": "z",
+  "vendored_libraries": "Pod/Classes/**/*.a"
+}

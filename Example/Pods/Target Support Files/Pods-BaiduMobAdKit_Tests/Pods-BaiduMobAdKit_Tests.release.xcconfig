@@ -1,0 +1,10 @@
+EMBEDDED_CONTENT_CONTAINS_SWIFT = YES
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/BaiduMobAdKit"
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/../../Pod/Classes/ios_api"
+OTHER_CFLAGS = $(inherited) -iquote "$CONFIGURATION_BUILD_DIR/Expecta.framework/Headers" -iquote "$CONFIGURATION_BUILD_DIR/Expecta_Snapshots.framework/Headers" -iquote "$CONFIGURATION_BUILD_DIR/FBSnapshotTestCase.framework/Headers" -iquote "$CONFIGURATION_BUILD_DIR/Specta.framework/Headers" -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/BaiduMobAdKit"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"BaiduMobAdSdk64bit" -l"z" -framework "AVFoundation" -framework "AdSupport" -framework "AudioToolbox" -framework "CoreGraphics" -framework "CoreLocation" -framework "CoreMedia" -framework "CoreMotion" -framework "CoreTelephony" -framework "Expecta" -framework "Expecta_Snapshots" -framework "FBSnapshotTestCase" -framework "MediaPlayer" -framework "MessageUI" -framework "QuartzCore" -framework "Security" -framework "Specta" -framework "StoreKit" -framework "SystemConfiguration" -framework "UIKit" -framework "WebKit"
+OTHER_SWIFT_FLAGS = $(inherited) "-D" "COCOAPODS"
+PODS_FRAMEWORK_BUILD_PATH = $(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-BaiduMobAdKit_Tests
+PODS_ROOT = ${SRCROOT}/Pods

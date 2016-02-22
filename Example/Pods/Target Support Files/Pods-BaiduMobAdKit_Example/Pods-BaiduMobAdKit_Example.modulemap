@@ -1,0 +1,6 @@
+framework module Pods_BaiduMobAdKit_Example {
+  umbrella header "Pods-BaiduMobAdKit_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
