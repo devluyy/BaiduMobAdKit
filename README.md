@@ -22,7 +22,7 @@ pod "BaiduMobAdKit"
 
 ## Author
 
-luyiyang, luyiyang@emoney.cn
+luyiyang, allenlu430@gmail.com
 
 ## License
 
