@@ -1,0 +1,15 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'BaiduMobAdKit_Example', :exclusive => true do
+  pod 'BaiduMobAdKit', :path => '../'
+end
+
+target 'BaiduMobAdKit_Tests', :exclusive => true do
+  pod 'BaiduMobAdKit', :path => '../'
+
+  pod 'Specta'
+  pod 'Expecta'
+  pod 'FBSnapshotTestCase'
+  pod 'Expecta+Snapshots'
+end
